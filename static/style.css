@@ -1,0 +1,51 @@
+body
+{
+  background: linear-gradient(to right,rgb(5, 5, 80),rgb(112, 176, 232),rgb(2, 2, 84));
+  justify-items: center;
+}
+
+.container
+{
+  background-color: white;
+  border-radius: 10px;
+  width: 30%;
+  height: 400px;
+  margin-top: 10%;
+  justify-items: center;
+  box-shadow:10px 10px 10px black ;
+  padding: 20px;
+}
+
+.input
+{
+  height: 30px;
+  width: 80%;
+  border-radius: 6px;
+}
+
+form{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.login-button
+{
+  width: 80%;
+  height: 40px;
+  background: linear-gradient(to right,rgb(3, 3, 60),rgb(128, 197, 244),rgb(3, 3, 69));
+  border-radius: 6px ;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.head
+{
+  width: 30%;
+}
+
+.logo-image
+{
+  width: 100%;
+}
+
