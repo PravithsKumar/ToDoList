@@ -16,6 +16,14 @@ body
   padding: 20px;
 }
 
+@media(max-width:600px)
+{
+  .container
+  {
+    width: 80%;
+  }
+}
+
 .input
 {
   height: 30px;

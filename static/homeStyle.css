@@ -18,10 +18,23 @@
   width: 30%;
   border-radius: 7px;
   height: 400px;
-  overflow: scroll;
   padding: 20px;
   overflow-x: hidden;
+  overflow:scroll;
 }
+
+@media(max-width:600px)
+{
+  .home-container
+  {
+  background-color: rgb(246, 204, 149);
+  width: 90%;
+  border-radius: 7px;
+  height: 400px;
+  padding: 20px;
+  }
+}
+
 
 .home-input
 {
@@ -40,7 +53,7 @@
 {
   background-color: antiquewhite;
   padding: 5px;
-  width: 100%;
+  width: 98%;
   display: grid;
   justify-items: center;
 }
@@ -48,15 +61,23 @@
 .base
 {
   background-color: antiquewhite;
-  width: 100%9;
+  width: 100%;
 }
 
 .logout-button
 {
     background-color: rgb(255, 51, 1);
-    width: 5%;
+    width: 10%;
     height:  30px;
     border-radius: 6px;
+}
+
+@media(max-width:600px)
+{
+  .logout-button
+  {
+    width: 40%;
+  }
 }
 
 a
